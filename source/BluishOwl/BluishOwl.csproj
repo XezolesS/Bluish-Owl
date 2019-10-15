@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <PackageId>BluishOwl</PackageId>
+    <Version>19.09.17</Version>
+    <Authors>XezolesS</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Discord.Net" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BluishOwl.Logging\BluishOwl.Logging.csproj" />
+    <ProjectReference Include="..\BluishOwl.Plugin\BluishOwl.Plugin.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="Properties\Translation\" />
+  </ItemGroup>
+
+</Project>
