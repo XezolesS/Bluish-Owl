@@ -1,5 +1,5 @@
 # Bluish Owl
- Bluish Owl is a general/educational purposes discord bot.
+ Bluish Owl is a general/educational purposed discord bot.
  This is plugin-styled program using MEF (Managed Extensibility Framework), so if the user wants additional features he/she can write himself/herself plugins even he/she is new to C# programming.
 
 ## References
