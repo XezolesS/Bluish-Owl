@@ -1,0 +1,14 @@
+F:\RNGExtension\RNGExtension\bin\Debug\netcoreapp2.2\RNGExtension.deps.json
+F:\RNGExtension\RNGExtension\bin\Debug\netcoreapp2.2\RNGExtension.dll
+F:\RNGExtension\RNGExtension\obj\Debug\netcoreapp2.2\RNGExtension.csprojAssemblyReference.cache
+F:\RNGExtension\RNGExtension\obj\Debug\netcoreapp2.2\RNGExtension.csproj.CoreCompileInputs.cache
+F:\RNGExtension\RNGExtension\obj\Debug\netcoreapp2.2\RNGExtension.AssemblyInfoInputs.cache
+F:\RNGExtension\RNGExtension\obj\Debug\netcoreapp2.2\RNGExtension.AssemblyInfo.cs
+F:\RNGExtension\RNGExtension\bin\Debug\netcoreapp2.2\RNGExtension.pdb
+F:\RNGExtension\RNGExtension\bin\Debug\netcoreapp2.2\BluishOwl.Plugin.dll
+F:\RNGExtension\RNGExtension\bin\Debug\netcoreapp2.2\BluishOwl.Logging.dll
+F:\RNGExtension\RNGExtension\bin\Debug\netcoreapp2.2\BluishOwl.Plugin.pdb
+F:\RNGExtension\RNGExtension\bin\Debug\netcoreapp2.2\BluishOwl.Logging.pdb
+F:\RNGExtension\RNGExtension\obj\Debug\netcoreapp2.2\RNGExtension.csproj.CopyComplete
+F:\RNGExtension\RNGExtension\obj\Debug\netcoreapp2.2\RNGExtension.dll
+F:\RNGExtension\RNGExtension\obj\Debug\netcoreapp2.2\RNGExtension.pdb
