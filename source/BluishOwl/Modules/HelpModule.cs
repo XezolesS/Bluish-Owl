@@ -36,7 +36,6 @@ namespace BluishOwl.Modules
                 commandsText += "`-` " + prefix + cmd + "\n";
             }
 
-
             await ReplyAsync(string.Empty, false, new EmbedBuilder
             {
                 Title = string.Format("Total {0} {1}", 

@@ -35,19 +35,11 @@ namespace BluishOwl.Handlers
             // Get prefix
             GuildDataIO io = new GuildDataIO((message.Channel as SocketGuildChannel).Guild.Id);
             var prefix = io.Read().CommandPrefix;
-     
             int argPos = 0;
-            if (message.HasMentionPrefix(Client.CurrentUser, ref argPos))
-            {
-                if (message.Content.ToLower().Contains("prefix"))
-                    await message.Channel.SendMessageAsync(null, false, new EmbedBuilder()
-                    {
-                        Description = string.Format("Guild prefix is {0}", prefix),
-                        Color = Color.Green
-                    }.Build());
-            }
 
-            if (message.HasStringPrefix(prefix, ref argPos))
+            // Consider to be command if the message has prefix or mention to bot in front of it
+            if (message.HasStringPrefix(prefix, ref argPos) ||
+                message.HasMentionPrefix(Client.CurrentUser, ref argPos))
             {
                 var context = new SocketCommandContext(Client, message);
                 var result = await Command.ExecuteAsync(context, argPos, Service);
