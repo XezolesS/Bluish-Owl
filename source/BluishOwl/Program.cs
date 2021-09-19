@@ -26,7 +26,6 @@ namespace BluishOwl
             }
 
             // Load Plugins
-            ExtensionLoader.Load();
             PluginLoader.Load();
 
             BotData botData = BotDataIO.Read();
@@ -35,8 +34,6 @@ namespace BluishOwl
                 $"\tToken: {botData.Token}\n" +
                 $"\tPermissions: {botData.Permissions}\n" +
                 $"\tInvite URL: https://discordapp.com/oauth2/authorize?&client_id={botData.ClientId}&scope=bot&permissions={botData.Permissions}\n");
-
-            
 
             new Initializer(botData);
         }
