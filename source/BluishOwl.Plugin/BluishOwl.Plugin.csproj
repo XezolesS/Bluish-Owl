@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
     <Authors>XezolesS</Authors>
     <Version>19.09.17</Version>
   </PropertyGroup>
@@ -11,9 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="BluishOwl.Logging">
-      <HintPath>..\BluishOwl\bin\Debug\netcoreapp2.2\BluishOwl.Logging.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\BluishOwl.Logging\BluishOwl.Logging.csproj" />
   </ItemGroup>
 
 </Project>
