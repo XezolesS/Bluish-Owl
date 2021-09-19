@@ -20,11 +20,17 @@ namespace BluishOwl.Handlers
         {
             var message = arg as SocketUserMessage;
 
+            // return if message is null
+            if (message == null) 
+                return;
+
             // return if message is sended by bot itself
-            if (message.Author.Id == Client.CurrentUser.Id) return;
+            if (message.Author.Id == Client.CurrentUser.Id) 
+                return;
 
             // return if message string dosen't contain any characters
-            if (string.IsNullOrWhiteSpace(message.Content)) return;
+            if (string.IsNullOrWhiteSpace(message.Content)) 
+                return;
 
             // Get prefix
             GuildDataIO io = new GuildDataIO((message.Channel as SocketGuildChannel).Guild.Id);
@@ -58,7 +64,7 @@ namespace BluishOwl.Handlers
                         Color = Color.Red
                     }.Build());
 
-                    Logger.Error("Command", result.ErrorReason);
+                    Logger.Error("Command", $"({context.Guild.Id}) {result.ErrorReason}");
                 }
             }
         }

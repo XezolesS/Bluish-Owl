@@ -8,6 +8,7 @@ using Discord.WebSocket;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
+using System.Composition;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;

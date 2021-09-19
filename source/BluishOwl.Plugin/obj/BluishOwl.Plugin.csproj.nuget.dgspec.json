@@ -108,9 +108,9 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "Microsoft.Composition": {
+            "System.Composition": {
               "target": "Package",
-              "version": "[1.0.31, )"
+              "version": "[5.0.1, )"
             }
           },
           "imports": [
