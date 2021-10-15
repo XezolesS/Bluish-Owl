@@ -4,6 +4,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <Authors>XezolesS</Authors>
     <Version>19.08.27</Version>
+    <Configurations>Debug;Release;Debug Plugins;Release Plugins</Configurations>
   </PropertyGroup>
 
   <ItemGroup>
