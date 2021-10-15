@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N0qYS17b8VoTJDcZ/g9q8E7HwwE2kp3AsEhKGfIOsNBUQhPNBj5X/ldnYfJKnZzIbgzkc0kIbUaRYD4eBzCNZQ==",
+  "dgSpecHash": "I+QSWiNKGG3vjfRGubw7GqksjK47DBCIM/cMtXeVvHoINUFWJEvGl4PhU9qScj3kxAdffApdcyQoYSs0UZWqIg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tndid\\source\\repos\\Bluish-Owl\\source\\BluishOwl.Plugin\\BluishOwl.Plugin.csproj",
+  "projectFilePath": "D:\\Microsoft Visual Studio 2019\\repos\\Bluish-Owl\\source\\BluishOwl.Plugin\\BluishOwl.Plugin.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tndid\\.nuget\\packages\\discord.net\\2.4.0\\discord.net.2.4.0.nupkg.sha512",
     "C:\\Users\\tndid\\.nuget\\packages\\discord.net.commands\\2.4.0\\discord.net.commands.2.4.0.nupkg.sha512",
